@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background:green;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: orange;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color:blue ;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: red;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: green;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:orange;padding:5px">
+  <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Ahmed_Abdelwaness</h1>
+  <p>Frontend Developer <b> 
+</div>
+
+ 
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:220px;width: aout;" ><a <a href="https://ibb.co/1t8PYydW"><img src="https://i.ibb.co/1t8PYydW/pro.jpg" alt="pro" border="0"></a></a></div>
+    <p>I'm Ahmed Abdelwanis, a Frontend Developer focused on building responsive and user-friendly web interfaces.  
+I work with HTML, CSS, JavaScript, and modern frameworks like React.  
+I’m passionate about clean code, great UI/UX, and continuous learning.</p>
+    <h3>My Favorite Players</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:220px;" ><a href="https://ibb.co/dJ73F90p"><img src="https://i.ibb.co/dJ73F90p/images-2.jpg" alt="images-2" border="0"></a></div><br>
+    <div class="fakeimg" style="height:220px;"><a href="https://ibb.co/4g8zJVYR"><img src="https://i.ibb.co/4g8zJVYR/1-1477580.webp" alt="1-1477580" border="0"></a></div><br>
+    <div class="fakeimg" style="height:220px;"><a href="https://ibb.co/RpP1xcwJ"><img src="https://i.ibb.co/RpP1xcwJ/Udsadeentitlsdaed.jpg" alt="Udsadeentitlsdaed" border="0"></a></div>
+  </div>
+  <div class="main">
+    <h2>Al Ahly Football Club</h2>
+    <h5>Title description,  Aug 10, 2025</h5>
+    <div class="fakeimg" style="height:210px;"><a href="https://ibb.co/ym4r7rQd"><img src="https://i.ibb.co/ym4r7rQd/alahly.jpg" alt="alahly" border="0"></a></div>
+    <p>
+Al Ahly Sporting Club, founded in 1907, is one of Egypt's most successful and popular football clubs. It's often referred to as the "Club of the Century" in African football. Al Ahly's history is deeply intertwined with Egyptian nationalism, having been established as a meeting place for student unions and later becoming a symbol of national pride. The club has a long-standing rivalry with Zamalek SC, another major Egyptian team. Al Ahly's success extends beyond football, with strong teams in other sports like basketball and handball. They have won a record number of Egyptian Premier League titles and Egypt Cup titles. 
+</p>
+    <br>
+    <h2>FC Barcelona</h2>
+    <h5>Title description, Aug 10, 2025</h5>
+    <div class="fakeimg" style="height:210px;"><a href="https://ibb.co/ymrj36qj"><img src="https://i.ibb.co/ymrj36qj/images.jpg" alt="images" border="0"></a></div>
+    <p>
+Barcelona is a vibrant city on the northeastern coast of Spain, known for its unique blend of Roman, Catalan, and modern architecture. It's the capital of Catalonia and Spain's second-largest city. The city boasts a rich history, with evidence of settlements dating back to Roman times. Barcelona's architectural landscape is a testament to its diverse influences, including iconic structures like the Sagrada Familia and Park Güell. The city is also a major cultural and economic hub, famous for its lively atmosphere and artistic heritage. Furthermore, Barcelona is home to the renowned FC Barcelona football club, a symbol of the city's passion for sports</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+
